@@ -1,16 +1,30 @@
 {
+  "id": "./",
   "name": "Orta Dünya Müzayedesi",
   "short_name": "Orta Dünya",
-  "description": "Yüzüklerin Efendisi ve Hobbit karakterleriyle açık artırma ve kapışma oyunu.",
+  "description": "Yüzüklerin Efendisi ve Hobbit karakterleriyle açık artırma ve kapışma oyunu. Aynı telefonda, bilgisayara karşı ya da farklı telefonlarda arkadaşınla oyna.",
   "lang": "tr",
+  "dir": "ltr",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
   "orientation": "portrait",
   "background_color": "#16130f",
   "theme_color": "#16130f",
+  "categories": ["games", "entertainment"],
   "icons": [
     { "src": "simge-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "simge-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+    { "src": "simge-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "simge-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Farklı telefonlarda oyna",
+      "short_name": "Arkadaşla oyna",
+      "description": "Oda kur ya da arkadaşının odasına katıl.",
+      "url": "./#cevrimici",
+      "icons": [{ "src": "simge-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
   ]
 }
